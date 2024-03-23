@@ -1,0 +1,21 @@
+*{
+    font-family: "poppins";
+}
+
+/* NAVBAR */
+.navbar.transparant {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.navbar.colored {
+    --tw-bg-opacity: 1;
+    background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+    /* border-bottom: solid 1px #cacaca85; */
+}
+
+
+/* JUMBOTRON */
+.sectionOne {
+    background-image: url('/assets/img/porto/view.jpg');
+    background-size: cover;
+}
