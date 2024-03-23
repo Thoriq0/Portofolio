@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Tailwind -->
+    <link href="/dist/output.css" rel="stylesheet">
+    <!-- local -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!--//! Navbar  -->
+    <nav class="navbar bg-opacity-25 flex justify-between items-center p-5">
+        <div class="icon inline-block">
+            <h1 class="font-pop font-extrabold tracking-widest text-white pl-5 md:pl-11 xl:pl-20 xl:text-xl">PORTFOLIO.</h1>
+        </div>
+        <div class="list text-white xl:mr-20 xl:text-lg">
+            <ul class="hidden lg:inline-block">
+                <li>Home</li>
+                <li>About</li>
+                <li>Portfolio</li>
+                <li>Contact</li>
+            </ul
+        </div>
+        <div class="right inline-block pr-5 md:pr-11 lg:hidden">
+            <img src="../Asset/icon/bars-solid.svg" width="20" style="filter: invert(100%);">
+        </div>
+    </nav>
+
+    <!--! Side Bar -->
+    <div class="sidebar hidden">
+        <ul>
+            <li>Home</li>
+            <li>Home</li>
+            <li>Home</li>
+            <li>Home</li>
+            <li>Home</li>
+        </ul>
+    </div>
+
+    <!--//! Section 1 - Header -->
+    <div class="sec1 bg-cover bg-center h-[750px]">
+        <!-- Greetings -->
+        <div class="title pl-11 pt-[270px] pb-2 md:pl-16 xl:pl-24">
+            <h1 class="text-white font-extrabold text-3xl pb-1 md:text-5xl xl:text-6xl">My Name Is</h1>
+            <h3 class="text-white font-extrabold tracking-widesr text-5xl md:text-6xl xl:text-7xl">Ahmad Thoriq</h3>
+        </div>
+        <!-- Title job -->
+        <div class="jobTitle bg-yellow-600 w-64 text-center p-5 ml-11 mt-2 rounded-lg md:mt-3 md:ml-16 xl:ml-24">
+            <h5 class="font-extrabold text-lg md:text-xl">I'm Web Developer</h5>
+        </div>  
+        <!-- Social -->
+    </div>
+
+    <!--//! Section 2 -->
+    <div class="sec2 bg-[#1b1f29] w-[410px] rounded-xl m-auto absolute top-[700px]">
+        <!-- Title -->
+        <!-- <div class="title text-center">
+            <h1 class="text-white text-2xl font-bold pt-6">Follow Me On</h1>
+        </div> -->
+        <!-- Icon -->
+        <div class="ic1 p-7">
+            <ul class="text-center">
+                <li>
+                    <a href="https://www.linkedin.com/in/ahmad-thoriq-61136b245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                        <img src="../Asset//icon/linkedin.svg" width="25" style="filter: invert(100%);" >
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/thoriq6134/">
+                        <img src="../Asset//icon/instagram.svg" width="25" style="filter: invert(100%);" >
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/Thoriq0">
+                        <img src="../Asset//icon/github.svg" width="25" style="filter: invert(100%);" >
+                    </a>
+                </li>
+                <li>
+                    <img src="../Asset//icon/whatsapp.svg" width="25" style="filter: invert(100%);" >
+                </li>
+            </ul>
+        </div>
+        <!-- End Icon -->
+    </div>
+
+
+    <!--//! Section 3 - About  -->
+    <div class="sec3 bg-[#1b1f29]">
+        <!-- Title -->
+        <div class="title text-center">
+            <h1 class="pb-2 pt-28 font-extrabold text-white text-2xl">About Me</h1>
+            <hr class="w-48 m-auto rounded-xl border-2">
+        </div>
+        <!-- Content -->
+        <div class="image pt-20 pb-20 xl:flex xl:flex-wrap xl:justify-between xl:w-full">
+            <div class="images xl:hidden">
+                <img src="../Asset/img/For CV.jpg" alt="thoriq" class="w-[190px] h-[190px] rounded-full m-auto border-solid border-white border-2">
+            </div>
+            <div class="imagee hidden xl:inline-block ml-36">
+                <img src="../Asset/img/For CV.jpg" alt="thoriq" width="400" class="rounded-xl">
+            </div>
+            <div class="content xl:inline-block xl:items-end xl:w-[700px]">
+                <p class="text-white text-center p-12 font-pop md:pl-20 md:pr-20 xl:hidden">
+                    Hello, I'm Thoriq, a Junior Web Developer with passion for crafting functional and visually appealing wbsites. I thrive on turning ideas into interactive digital experiences taht not only look great but also provide seamless user experiences
+                </p>
+                <h1 class="hidden xl:inline-block text-white font-pop text-end text-2xl float-right pr-36 font-bold mb-5">Hello, I'm Thoriq,</h1>
+                <p class="hidden xl:inline-block text-white font-pop text-end pr-36" style="text-align: justify;">
+                    a Junior Web Developer skilled in HTML, CSS, and JavaScript DOM. I'm also proficient in PHP native development.
+
+                    With a focus on creating visually appealing user interfaces, I enjoy crafting websites that are both visually engaging and functional. My skills involve implementing creative concepts into digital experiences that users can enjoy.
+
+                    I have experience managing and manipulating the DOM using JavaScript, as well as the ability to develop backends using PHP native. This combination allows me to create responsive and interactive websites.
+
+                    If you have a project or challenge that needs solving, I'm ready to collaborate and bring your ideas to life through creative web development. Let's discuss further!
+                </p>
+                <button type="submit" class="bg-yellow-600 w-52 text-center p-4 mt-2 rounded-lg mx-auto block xl:mx-0 xl:block xl:float-right xl:mr-36 xl:mt-14">
+                    <h5 class="text-lg font-semibold font-pop">Download CV</h5>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <!--//! Section 4 - Service -->
+    <div class="sec4 bg-[#1b1f29] pb-24">
+        <!-- Title -->
+        <div class="title text-center">
+            <h1 class="pb-2 pt-14 font-extrabold text-white text-2xl">Service</h1>
+            <hr class="w-48 m-auto rounded-xl border-2">
+        </div>
+        <!-- Content -->
+        <div class="cards flex flex-wrap pl-14 pr-14">
+            <!--//* Card 1 -->
+            <div class="card1 bg-[#2a5343] w-80 rounded-xl mx-auto mt-20">
+                <!-- Icon/Image -->
+                <div class="icon p-10">
+                    <img src="../Asset/img/ui.png" width="200" class="m-auto">
+                </div>
+                <!-- Title For Card -->
+                <div class="title">
+                    <h1 class="text-white text-center font-pop text-lg font-bold">UI/UX design</h1>
+                </div>
+                <!-- Content -->
+                <div class="content p-10">
+                    <p class="text-white">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat, exercitationem sunt. Iste soluta quaerat recusandae, asperiores labore sint consequuntur aperiam nisi quam id placeat, numquam, a consequatur? Ea, quia veritatis.
+                    </p>
+                </div>
+            </div>
+            <!--//* End Card 1 -->
+            <!--//* Card 2 -->
+            <div class="card1 bg-[#2a3053] w-80 rounded-xl mx-auto mt-20">
+                <!-- Icon/Image -->
+                <div class="icon p-10">
+                    <img src="../Asset/img/webdevelopment.png" width="200" class="m-auto">
+                </div>
+                <!-- Title For Card -->
+                <div class="title">
+                    <h1 class="text-white text-center font-pop text-lg font-bold">Web Development</h1>
+                </div>
+                <!-- Content -->
+                <div class="content p-10">
+                    <p class="text-white">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat, exercitationem sunt. Iste soluta quaerat recusandae, asperiores labore sint consequuntur aperiam nisi quam id placeat, numquam, a consequatur? Ea, quia veritatis.
+                    </p>
+                </div>
+            </div>
+            <!--//* End Card 2 -->
+            <!--//* Card 3 -->
+            <div class="card1 bg-[#534f2a] w-80 rounded-xl mx-auto mt-20">
+                <!-- Icon/Image -->
+                <div class="icon p-10">
+                    <img src="../Asset/img/network.png" width="200" class="m-auto">
+                </div>
+                <!-- Title For Card -->
+                <div class="title">
+                    <h1 class="text-white text-center font-pop text-lg font-bold">Network Management</h1>
+                </div>
+                <!-- Content -->
+                <div class="content p-10">
+                    <p class="text-white">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat, exercitationem sunt. Iste soluta quaerat recusandae, asperiores labore sint consequuntur aperiam nisi quam id placeat, numquam, a consequatur? Ea, quia veritatis.
+                    </p>
+                </div>
+            </div>
+            <!--//* End Card 3 -->
+        </div>
+    </div>
+
+    <!--//! Section 5 -->
+    <div class="sec5 bg-[#1b1f29] pb-24">
+        <!-- Title -->
+        <div class="title text-center">
+            <h1 class="pb-2 pt-14 font-extrabold text-white text-2xl">Portfolio</h1>
+            <hr class="w-48 m-auto rounded-xl border-2">
+        </div>
+        <!-- Cars -->
+        <div class="cards flex flex-wrap justify-start pl-14 pr-14">
+            <!--//* Card 1 -->
+            <div class="card bg-[#362e50] w-80 mx-auto mt-10 rounded-xl">
+                <!--? Image/icon -->
+                <!-- <div class="image">
+                    <img src="../Asset/img/barber.jpg" alt="barber" title="barber" class="rounded-t-xl">
+                </div> -->
+                <!--? Title  -->
+                <div class="title p-10 pb-0 font-bold font-pop text-lg">
+                    <h1 class="text-white font-pop text-start">Barbershop</h1>
+                </div>
+                <!--? content -->
+                <div class="content p-10 pt-5">
+                    <p class="text-white pb-5">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores nihil nisi enim commodi ratione libero ....
+                    </p>
+                    <button type="submit" class="bg-yellow-600 p-3 rounded-xl w-40">
+                        <h1 class="font-pop font-semibold text-sm">
+                            View Project
+                        </h1>
+                    </button>
+                </div>
+            </div>
+            <!--//* End Card 1  -->
+            <!--* Card 2 -->
+            <div class="card bg-[#2e503d] w-80 mx-auto mt-10 rounded-xl">
+                <!--? Title  -->
+                <div class="title p-10 pb-0 font-bold font-pop text-lg">
+                    <h1 class="text-white font-pop text-start">Barbershop</h1>
+                </div>
+                <!--? content -->
+                <div class="content p-10 pt-5">
+                    <p class="text-white pb-5">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores nihil nisi enim commodi ratione libero ....
+                    </p>
+                    <button type="submit" disabled class="bg-yellow-600 p-3 rounded-xl w-40">
+                        <h1 class="font-pop font-semibold text-sm">
+                            View Project
+                        </h1>
+                    </button>
+                </div>
+            </div>
+            <!--* End Card 2  -->
+            <!--* Card 3 -->
+            <div class="card bg-[#2e4050] w-80 mx-auto mt-10 rounded-xl">
+                <!--? Title  -->
+                <div class="title p-10 pb-0 font-bold font-pop text-lg">
+                    <h1 class="text-white font-pop text-start">Barbershop</h1>
+                </div>
+                <!--? content -->
+                <div class="content p-10 pt-5">
+                    <p class="text-white pb-5">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores nihil nisi enim commodi ratione libero ....
+                    </p>
+                    <button type="submit" disabled class="bg-yellow-600 p-3 rounded-xl w-40">
+                        <h1 class="font-pop font-semibold text-sm">
+                            View Project
+                        </h1>
+                    </button>
+                </div>
+            </div>
+            <!--* End Card 3  -->
+            <!--* Card 4 -->
+            <div class="card bg-[#362e50] w-80 mx-auto mt-10 rounded-xl">
+                <!--? Title  -->
+                <div class="title p-10 pb-0 font-bold font-pop text-lg">
+                    <h1 class="text-white font-pop text-start">Barbershop</h1>
+                </div>
+                <!--? content -->
+                <div class="content p-10 pt-5">
+                    <p class="text-white pb-5">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores nihil nisi enim commodi ratione libero ....
+                    </p>
+                    <button type="submit" disabled class="bg-yellow-600 p-3 rounded-xl w-40">
+                        <h1 class="font-pop font-semibold text-sm">
+                            View Project
+                        </h1>
+                    </button>
+                </div>
+            </div>
+            <!--* End Card 4  -->
+            <!--* Card 5 -->
+            <div class="card bg-[#2e503d] w-80 mx-auto mt-10 rounded-xl">
+                <!--? Title  -->
+                <div class="title p-10 pb-0 font-bold font-pop text-lg">
+                    <h1 class="text-white font-pop text-start">Barbershop</h1>
+                </div>
+                <!--? content -->
+                <div class="content p-10 pt-5">
+                    <p class="text-white pb-5">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores nihil nisi enim commodi ratione libero ....
+                    </p>
+                    <button type="submit" disabled class="bg-yellow-600 p-3 rounded-xl w-40">
+                        <h1 class="font-pop font-semibold text-sm">
+                            View Project
+                        </h1>
+                    </button>
+                </div>
+            </div>
+            <!--* End Card 5  -->
+            <!--* Card 6 -->
+            <div class="card bg-[#2e4050] w-80 mx-auto mt-10 rounded-xl">
+                <!--? Title  -->
+                <div class="title p-10 pb-0 font-bold font-pop text-lg">
+                    <h1 class="text-white font-pop text-start">Barbershop</h1>
+                </div>
+                <!--? content -->
+                <div class="content p-10 pt-5">
+                    <p class="text-white pb-5">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores nihil nisi enim commodi ratione libero ....
+                    </p>
+                    <button type="submit" disabled class="bg-yellow-600 p-3 rounded-xl w-40">
+                        <h1 class="font-pop font-semibold text-sm">
+                            View Project
+                        </h1>
+                    </button>
+                </div>
+            </div>
+            <!--* End Card 6  -->
+        </div>
+    </div>
+
+    <!--! Section 6 Contact & Footer  -->
+    <div class="sec6 bg-[#1a1c20] grid grid-cols-2">
+        <!--* Contact -->
+        <div class="contact pt-5">
+            <!--? Title -->
+            <div class="title">
+                <h3 class="text-white text-center font-pop ">contact</h3>
+            </div>
+            <!--? Content -->
+            <div class="content">
+                <ul class="ml-12 mt-3">
+                    <li>
+                        <img src="../Asset//icon/whatsapp.svg" width="15" style="filter: invert(100%);" class="inline-block" >
+                        <p class="inline-block text-white text-xs indent-2">+62 8515 6600 534</p>
+                    </li>
+                    <li>
+                        <img src="../Asset//icon/email.svg" width="15" style="filter: invert(100%);" class="inline-block" >
+                        <p class="inline-block text-white text-xs indent-2">thoriq.ahmad1301@gmail.com</p>
+                    </li>
+                    <li>
+                        <img src="../Asset//icon/linkedin.svg" width="15" style="filter: invert(100%);" class="inline-block" >
+                        <p class="inline-block text-white text-xs indent-2">Ahmad Thoriq</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--* Footer -->
+        <div class="footer">
+            <h3 class="text-white font-pop font-light text-xs text-center leading-[150px]">&#169copyright 2023</h3>
+        </div>
+        
+    </div>
+</body>
+</html>
